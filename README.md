@@ -1,0 +1,3 @@
+# Expo DocumentPicker: Empty Result Array on Android
+
+This repository demonstrates a bug in the Expo DocumentPicker API on Android. The `DocumentPicker.getDocumentAsync()` function sometimes returns an empty array, even when the user successfully selects a file. This issue can cause unexpected behavior in applications.  The bug and a potential solution are provided in separate Javascript files.  The solution involves a retry mechanism and improved error handling to address this inconsistency.
